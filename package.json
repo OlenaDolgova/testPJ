@@ -1,0 +1,13 @@
+{
+  "name": "protractorTest",
+  "version": "0.0.0",
+  "description": "Test project",
+  "scripts": {
+    "webdriver-update": "webdriver-manager update",
+    "test": "node_modules/.bin/protractor test/conf.js"
+  },
+  "dependencies": {
+    "protractor": "5.0.0",
+    "fs": "0.0.1"
+  }
+}
